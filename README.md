@@ -53,3 +53,7 @@ crc stop
 # Delete Container (BEWARE)
 crc delete
 ```
+
+## What's next
+
+https://developers.redhat.com/openshift/
