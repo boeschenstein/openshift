@@ -38,8 +38,12 @@ crc start -h
 # start
 crc start -p C:\Users\bop\Downloads\pull-secret.txt
 
-# set up environment
+# set up environment, get statement to config env var
 crc oc-env
+
+# The suggested statement did not work for me, so I added the path manually in Windows: C:\Users\<myusername>\.crc\bin\oc;
+# error I got:
+# Invoke-Expression : Cannot bind argument to parameter 'Command' because it is an empty string.
 
 # Login as admin (if needed)
 oc login -u kubeadmin -p <snip> https://api.crc.testing:6443
