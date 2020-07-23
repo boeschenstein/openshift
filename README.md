@@ -51,6 +51,9 @@ oc login -u kubeadmin -p <snip> https://api.crc.testing:6443
 # Login as developer
 oc login -u developer -p developer https://api.crc.testing:6443
 
+# Start console (that is a web app)
+crc console
+
 # Stop
 crc stop
 
